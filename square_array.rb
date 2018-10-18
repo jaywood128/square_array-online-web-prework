@@ -1,6 +1,7 @@
 def square_array(array)
  empty_array = []
-  array.map! {|num| num **2}
-    empty_array.push(num)
+  array.each do |num|
+    empty_array.push(num ** 2)
   end
+    # your code here
 end
