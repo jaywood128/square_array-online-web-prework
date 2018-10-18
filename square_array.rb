@@ -4,4 +4,4 @@ def square_array(array)
     empty_array.push(num)
   end
 end
-  
+end
